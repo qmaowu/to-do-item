@@ -50,6 +50,11 @@ class HomePageTest(TestCase):
 
         self.assertIn('itemy 1',response.content.decode())
         self.assertIn('itemy 2',response.content.decode())'''
+
+
+
+
+
 class ListViewTest(TestCase):
 
     #def test_display_all_items(self):
